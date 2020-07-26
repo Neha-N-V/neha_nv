@@ -1,0 +1,23 @@
+#assigning elements to different lists
+numbers=[1,2,3,4]
+char=["names","places","animals"]
+mix=[1,2,"chess",5,"ludo"]
+
+
+#accessing elements from tuple
+tnum=(1,2,3,5)
+tchar=("computer","keyboard","mouse","CPU")
+x=tnum[3]
+y=tchar[0:]
+
+
+#deleting different dictionary elements
+myDict={ "Telangana":"Hyderabad",
+         "Tamil Nadu":"Chennai",
+         "Goa":"Panaji",
+         "Manipur":"Impal",
+         "Tripura":"Agartala",
+         "Rajasthan":"Jaipur",}
+del myDict["Telangana"]
+del myDict["Goa"]
+del myDict["Manipur"]
